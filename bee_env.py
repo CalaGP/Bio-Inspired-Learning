@@ -52,7 +52,7 @@ class Bee:
     y: float
     theta: float                    # heading angle in radians
     max_speed: float = 20.0         # World units / seconds
-    max_turn_rate: float = 3.0      # Radians / seconds
+    max_turn_rate: float = 4.0      # Radians / seconds
     trail: list = field(default_factory=list)  # For visualization/debugging
 
     @property

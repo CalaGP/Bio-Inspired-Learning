@@ -74,7 +74,7 @@ def main():
     bee_sprite = make_bee_sprite(size=int(SCALE * 3.2))
 
     rng = np.random.default_rng()
-    n_flowers = 3
+    n_flowers = 30
     env = Environment(width=WORLD_W, height=WORLD_H, n_flowers=n_flowers, max_steps=600)
     flower_sprites_active, flower_sprites_wilted = build_flower_sprites(n_flowers, size_px=int(SCALE * 2.2))
 
