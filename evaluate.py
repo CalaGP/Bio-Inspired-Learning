@@ -37,7 +37,7 @@ DIST_WEIGHT = 1.0
 TIME_WEIGHT = 5.0
 REACHED_BONUS = 30.0
 
-def rollout(genome, n_hidden=4, n_flowers=1, env_seed=None,
+def rollout(genome, n_hidden=8, n_flowers=1, env_seed=None,
             max_steps=300, width=100.0, height=100.0,
             flower_positions=None, bee_start=None,
             record_trajectory=False):
@@ -71,7 +71,7 @@ def rollout(genome, n_hidden=4, n_flowers=1, env_seed=None,
         -DIST_WEIGHT * final_dist
         - TIME_WEIGHT * (steps_taken / max_steps)
         + (REACHED_BONUS if reached else 0.0)
-    )
+    ) #the fitness is evaluated on the results from the ANN working with the optimized weights from the es
 
     return {
         "fitness": fitness,

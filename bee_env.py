@@ -51,8 +51,8 @@ class Bee:
     x: float
     y: float
     theta: float                    # heading angle in radians
-    max_speed: float = 20.0         # World units / seconds
-    max_turn_rate: float = 4.0      # Radians / seconds
+    max_speed: float = 60.0         # World units / seconds
+    max_turn_rate: float = 15.0      # Radians / seconds
     trail: list = field(default_factory=list)  # For visualization/debugging
 
     @property
@@ -116,7 +116,7 @@ class Environment:
     """ Bounded 2D map holding one bee and multiple flowers. """
 
     def __init__(self, width = 100.0, height = 100.0, n_flowers = 1, 
-                dt = 0.1, max_steps = 300, seed = None, 
+                dt = 0.02, max_steps = 300, seed = None, 
                 flower_positions = None, bee_start = None):
         self.width = width
         self.height = height
@@ -181,7 +181,7 @@ class Environment:
 
     def nearest_flower_distance(self):
         """Return the distance to the nearest active flower, or None if there are no active flowers."""
-        dists = [np.linalg.norm(self.bee.pos - f.pos) for f in self.flowers if f.active]
+        dists = [np.linalg.norm(self.bee.pos - f.pos) for f in self.flowers]
         return float(min(dists)) if dists else None
 
     

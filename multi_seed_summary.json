@@ -1,0 +1,62 @@
+[
+  {
+    "seed": 0,
+    "best_fitness": 29.231839246212633,
+    "holdout_success_rate": 0.9666666666666667,
+    "gen_to_threshold": 9
+  },
+  {
+    "seed": 1,
+    "best_fitness": 28.978819022006302,
+    "holdout_success_rate": 0.9666666666666667,
+    "gen_to_threshold": 14
+  },
+  {
+    "seed": 2,
+    "best_fitness": 28.978399096548586,
+    "holdout_success_rate": 1.0,
+    "gen_to_threshold": 6
+  },
+  {
+    "seed": 3,
+    "best_fitness": 29.05604723677979,
+    "holdout_success_rate": 0.9666666666666667,
+    "gen_to_threshold": 6
+  },
+  {
+    "seed": 4,
+    "best_fitness": 29.752944755677692,
+    "holdout_success_rate": 0.0,
+    "gen_to_threshold": 19
+  },
+  {
+    "seed": 5,
+    "best_fitness": 29.04666630689224,
+    "holdout_success_rate": 0.9666666666666667,
+    "gen_to_threshold": 13
+  },
+  {
+    "seed": 6,
+    "best_fitness": 29.025321158948298,
+    "holdout_success_rate": 0.9666666666666667,
+    "gen_to_threshold": 9
+  },
+  {
+    "seed": 7,
+    "best_fitness": 28.969511564215676,
+    "holdout_success_rate": 0.0,
+    "gen_to_threshold": 33
+  },
+  {
+    "seed": 8,
+    "best_fitness": 28.89108545177566,
+    "holdout_success_rate": 0.1,
+    "gen_to_threshold": 15
+  },
+  {
+    "seed": 9,
+    "best_fitness": 28.995351532152146,
+    "holdout_success_rate": 0.9666666666666667,
+    "gen_to_threshold": 17
+  }
+]

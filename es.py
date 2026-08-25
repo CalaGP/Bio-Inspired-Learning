@@ -40,8 +40,8 @@ class EvolutionStrategy:
         self.sigma = np.full(num_params, sigma_init, dtype=float) #one step size per weight
 
         n = num_params
-        self.tau = 1.0 / 2 * n  #global learning rate
-        self.tau_i = 1.0 / np.sqrt(2.0 * n)    # per-coordinate learning rate
+        self.tau = 1.0 / np.sqrt(2.0 * n)  #global learning rate
+        self.tau_i = 1.0 / np.sqrt(2.0 * np.sqrt(n))    # per-coordinate learning rate
 
         self.generation = 0
         self.best_genome = self.mean.copy()
@@ -67,7 +67,7 @@ class EvolutionStrategy:
         population = self.mean + noise * self.sigma
         return population
 
-    def _select_mu(self, population, fitnesses):
+    def tell(self, population, fitnesses):
         """
         2. Selection: Choose the mu best offspring based on fitness
         3. Update the mean to match the new population.
@@ -95,6 +95,7 @@ class EvolutionStrategy:
             "sigma_mean": float(self.sigma.mean()),
             "sigma_min": float(self.sigma.min()),
             "sigma_max": float(self.sigma.max()),
+            
         })
  
         self.generation += 1

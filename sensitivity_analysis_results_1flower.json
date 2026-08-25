@@ -1,0 +1,886 @@
+{
+  "population_size": [
+    {
+      "param": "population_size",
+      "value": 10,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.127974396445673,
+      "best_fitness_std": 0.3155522515431242,
+      "holdout_success_mean": 0.8800000000000001,
+      "holdout_success_std": 0.11075498483890768,
+      "gen_to_threshold_mean": 14.0,
+      "gen_to_threshold_std": 6.06630035524124,
+      "n_converged": 5,
+      "elapsed_seconds": 23.41989779472351,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 28.95077763685642,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 20
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.93389950095809,
+          "holdout_success_rate": 0.7,
+          "gen_to_threshold": 22
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.946202851956368,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 12
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.8,
+          "gen_to_threshold": 10
+        }
+      ]
+    },
+    {
+      "param": "population_size",
+      "value": 20,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.111653241837804,
+      "best_fitness_std": 0.17013878135792782,
+      "holdout_success_mean": 0.5866666666666667,
+      "holdout_success_std": 0.4791659420284376,
+      "gen_to_threshold_mean": 9.6,
+      "gen_to_threshold_std": 5.238320341483519,
+      "n_converged": 5,
+      "elapsed_seconds": 53.9303822517395,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 8
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.933899964510413,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 20
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.957053945991376,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 7
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723681556,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.37942581565903,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 7
+        }
+      ]
+    },
+    {
+      "param": "population_size",
+      "value": 40,
+      "is_baseline": true,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.199609871445,
+      "best_fitness_std": 0.29172290376481236,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 10.8,
+      "gen_to_threshold_std": 5.035871324805669,
+      "n_converged": 5,
+      "elapsed_seconds": 96.12976837158203,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.978819022006302,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 14
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.978399096548586,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 19
+        }
+      ]
+    },
+    {
+      "param": "population_size",
+      "value": 80,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.052607524896324,
+      "best_fitness_std": 0.09658888985625609,
+      "holdout_success_mean": 0.9800000000000001,
+      "holdout_success_std": 0.01632993161855452,
+      "gen_to_threshold_mean": 16.0,
+      "gen_to_threshold_std": 6.0332412515993425,
+      "n_converged": 5,
+      "elapsed_seconds": 175.78015971183777,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 13
+        },
+        {
+          "seed": 1,
+          "best_fitness": 29.002432709364843,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 17
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.94625910562539,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 22
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.026459326498976,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 22
+        }
+      ]
+    }
+  ],
+  "elite_frac": [
+    {
+      "param": "elite_frac",
+      "value": 0.1,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.22668886387192,
+      "best_fitness_std": 0.2728240853377096,
+      "holdout_success_mean": 0.8933333333333333,
+      "holdout_success_std": 0.16384274303259344,
+      "gen_to_threshold_mean": 8.8,
+      "gen_to_threshold_std": 4.445222154178574,
+      "n_converged": 5,
+      "elapsed_seconds": 115.1984212398529,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 1,
+          "best_fitness": 29.068655896289012,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 10
+        },
+        {
+          "seed": 2,
+          "best_fitness": 29.02395718439896,
+          "holdout_success_rate": 0.5666666666666667,
+          "gen_to_threshold": 5
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.75294475567922,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 17
+        }
+      ]
+    },
+    {
+      "param": "elite_frac",
+      "value": 0.25,
+      "is_baseline": true,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.199609871445,
+      "best_fitness_std": 0.29172290376481236,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 10.8,
+      "gen_to_threshold_std": 5.035871324805669,
+      "n_converged": 5,
+      "elapsed_seconds": 92.94486212730408,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.978819022006302,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 14
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.978399096548586,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 19
+        }
+      ]
+    },
+    {
+      "param": "elite_frac",
+      "value": 0.5,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.190493919011907,
+      "best_fitness_std": 0.2967898100835704,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 15.2,
+      "gen_to_threshold_std": 6.013318551349164,
+      "n_converged": 5,
+      "elapsed_seconds": 104.86989521980286,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 20
+        },
+        {
+          "seed": 1,
+          "best_fitness": 29.011381303558917,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 20
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.971039130715745,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 10
+        },
+        {
+          "seed": 3,
+          "best_fitness": 28.98526515889455,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 20
+        }
+      ]
+    }
+  ],
+  "sigma_init": [
+    {
+      "param": "sigma_init",
+      "value": 0.1,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.21208152776125,
+      "best_fitness_std": 0.2842794318863066,
+      "holdout_success_mean": 0.7866666666666667,
+      "holdout_success_std": 0.3936157178433469,
+      "gen_to_threshold_mean": 12.4,
+      "gen_to_threshold_std": 4.317406628984581,
+      "n_converged": 5,
+      "elapsed_seconds": 87.4498291015625,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.23177935917572,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 18
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.99329837583042,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 2,
+          "best_fitness": 29.023295707325218,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 14
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723678706,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.75598695968785,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 15
+        }
+      ]
+    },
+    {
+      "param": "sigma_init",
+      "value": 0.5,
+      "is_baseline": true,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.199609871445,
+      "best_fitness_std": 0.29172290376481236,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 10.8,
+      "gen_to_threshold_std": 5.035871324805669,
+      "n_converged": 5,
+      "elapsed_seconds": 256.7602708339691,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.978819022006302,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 14
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.978399096548586,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 19
+        }
+      ]
+    },
+    {
+      "param": "sigma_init",
+      "value": 1.0,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.197000917705083,
+      "best_fitness_std": 0.29416591230849515,
+      "holdout_success_mean": 0.9800000000000001,
+      "holdout_success_std": 0.01632993161855452,
+      "gen_to_threshold_mean": 13.0,
+      "gen_to_threshold_std": 6.0,
+      "n_converged": 5,
+      "elapsed_seconds": 312.7997102737427,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.997969935288793,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 18
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.946203414566497,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 10
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 22
+        }
+      ]
+    },
+    {
+      "param": "sigma_init",
+      "value": 2.0,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.215847711561793,
+      "best_fitness_std": 0.2830288898137464,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 17.2,
+      "gen_to_threshold_std": 7.858753081755401,
+      "n_converged": 5,
+      "elapsed_seconds": 300.15030670166016,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 24
+        },
+        {
+          "seed": 1,
+          "best_fitness": 29.086001265286132,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 26
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.952406053852705,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 10
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 20
+        }
+      ]
+    }
+  ],
+  "n_flowers": [
+    {
+      "param": "n_flowers",
+      "value": 1,
+      "is_baseline": true,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.199609871445,
+      "best_fitness_std": 0.29172290376481236,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 10.8,
+      "gen_to_threshold_std": 5.035871324805669,
+      "n_converged": 5,
+      "elapsed_seconds": 323.0633330345154,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.978819022006302,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 14
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.978399096548586,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 19
+        }
+      ]
+    },
+    {
+      "param": "n_flowers",
+      "value": 5,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 28.35751761467332,
+      "best_fitness_std": 0.126732007169963,
+      "holdout_success_mean": 0.9333333333333333,
+      "holdout_success_std": 0.0,
+      "gen_to_threshold_mean": 19.6,
+      "gen_to_threshold_std": 20.538743875904387,
+      "n_converged": 5,
+      "elapsed_seconds": 752.6332430839539,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 28.20949732007885,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.501398224189327,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 12
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.272177679553693,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 5
+        },
+        {
+          "seed": 3,
+          "best_fitness": 28.287350581942007,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 60
+        },
+        {
+          "seed": 4,
+          "best_fitness": 28.51716426760274,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 15
+        }
+      ]
+    },
+    {
+      "param": "n_flowers",
+      "value": 10,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 27.736102546196527,
+      "best_fitness_std": 0.4032090301367309,
+      "holdout_success_mean": 0.9533333333333334,
+      "holdout_success_std": 0.026666666666666658,
+      "gen_to_threshold_mean": 19.2,
+      "gen_to_threshold_std": 14.218298069740978,
+      "n_converged": 5,
+      "elapsed_seconds": 1410.1570658683777,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 27.814099322205365,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 10
+        },
+        {
+          "seed": 1,
+          "best_fitness": 27.935499217625704,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 17
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.11138130085488,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 5
+        },
+        {
+          "seed": 3,
+          "best_fitness": 26.955222478693155,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 46
+        },
+        {
+          "seed": 4,
+          "best_fitness": 27.8643104116035,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 18
+        }
+      ]
+    },
+    {
+      "param": "n_flowers",
+      "value": 20,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 26.692762591496194,
+      "best_fitness_std": 0.11994612468202888,
+      "holdout_success_mean": 0.9400000000000001,
+      "holdout_success_std": 0.01333333333333333,
+      "gen_to_threshold_mean": 18.6,
+      "gen_to_threshold_std": 9.624967532412771,
+      "n_converged": 5,
+      "elapsed_seconds": 1030.945923089981,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 26.576048684829516,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 12
+        },
+        {
+          "seed": 1,
+          "best_fitness": 26.546501300794183,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 20
+        },
+        {
+          "seed": 2,
+          "best_fitness": 26.79280991437673,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 8
+        },
+        {
+          "seed": 3,
+          "best_fitness": 26.85680573316182,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 36
+        },
+        {
+          "seed": 4,
+          "best_fitness": 26.691647324318737,
+          "holdout_success_rate": 0.9333333333333333,
+          "gen_to_threshold": 17
+        }
+      ]
+    }
+  ],
+  "n_hidden": [
+    {
+      "param": "n_hidden",
+      "value": 2,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.093746454950214,
+      "best_fitness_std": 0.0986901638158435,
+      "holdout_success_mean": 0.72,
+      "holdout_success_std": 0.3751147972436053,
+      "gen_to_threshold_mean": 16.0,
+      "gen_to_threshold_std": 10.295630140987,
+      "n_converged": 5,
+      "elapsed_seconds": 2073.9921152591705,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.2312825939821,
+          "holdout_success_rate": 0.6,
+          "gen_to_threshold": 35
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.955914338511803,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 17
+        },
+        {
+          "seed": 2,
+          "best_fitness": 29.009081704556863,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 8
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.13428032007145,
+          "holdout_success_rate": 0.03333333333333333,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.138173317628834,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 14
+        }
+      ]
+    },
+    {
+      "param": "n_hidden",
+      "value": 4,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.185140095708455,
+      "best_fitness_std": 0.3056988311020552,
+      "holdout_success_mean": 0.39333333333333337,
+      "holdout_success_std": 0.48184829332247076,
+      "gen_to_threshold_mean": 28.0,
+      "gen_to_threshold_std": 18.18790807102345,
+      "n_converged": 5,
+      "elapsed_seconds": 652.3504929542542,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 19
+        },
+        {
+          "seed": 1,
+          "best_fitness": 29.006443199649382,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 20
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.878423252741165,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 59
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752947543159312,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 36
+        }
+      ]
+    },
+    {
+      "param": "n_hidden",
+      "value": 8,
+      "is_baseline": true,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.199609871445,
+      "best_fitness_std": 0.29172290376481236,
+      "holdout_success_mean": 0.78,
+      "holdout_success_std": 0.3902136167109839,
+      "gen_to_threshold_mean": 10.8,
+      "gen_to_threshold_std": 5.035871324805669,
+      "n_converged": 5,
+      "elapsed_seconds": 413.94951605796814,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.231839246212633,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 9
+        },
+        {
+          "seed": 1,
+          "best_fitness": 28.978819022006302,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 14
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.978399096548586,
+          "holdout_success_rate": 1.0,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.05604723677979,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.752944755677692,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 19
+        }
+      ]
+    },
+    {
+      "param": "n_hidden",
+      "value": 16,
+      "is_baseline": false,
+      "n_seeds": 5,
+      "best_fitness_mean": 29.040766393634783,
+      "best_fitness_std": 0.05736624380000157,
+      "holdout_success_mean": 0.6,
+      "holdout_success_std": 0.4501851470969102,
+      "gen_to_threshold_mean": 21.2,
+      "gen_to_threshold_std": 10.64706532336493,
+      "n_converged": 5,
+      "elapsed_seconds": 484.8633658885956,
+      "per_seed_summary": [
+        {
+          "seed": 0,
+          "best_fitness": 29.025421579552837,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 35
+        },
+        {
+          "seed": 1,
+          "best_fitness": 29.008821703524365,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 13
+        },
+        {
+          "seed": 2,
+          "best_fitness": 28.96849747035009,
+          "holdout_success_rate": 0.1,
+          "gen_to_threshold": 30
+        },
+        {
+          "seed": 3,
+          "best_fitness": 29.062938446951218,
+          "holdout_success_rate": 0.9666666666666667,
+          "gen_to_threshold": 6
+        },
+        {
+          "seed": 4,
+          "best_fitness": 29.138152767795393,
+          "holdout_success_rate": 0.0,
+          "gen_to_threshold": 22
+        }
+      ]
+    }
+  ]
+}
