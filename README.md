@@ -4,7 +4,7 @@ This repository contains a custom Evolution Strategy (ES) pipeline used to train
 
 ## Core Simulation and Training Files
 
-* **`ann.py`**: Implements a small feedforward neural network that serves as a reactive controller for the bee[cite: 2]. The network's flat weight vector acts as the genome that the Evolution Strategy evolves[cite: 2].
+* **`ann.py`**: Implements a small feedforward neural network that serves as a reactive controller for the bee. The network's flat weight vector acts as the genome that the Evolution Strategy evolves.
 * **`bee_env.py`**: Contains the pure simulation logic for the bounded 2D environment. It manages the bee's unicycle kinematics, static flower locations, and a simplified gradient-vector sensory model.
 * **`es.py`**: Implements a custom (mu, lambda) Evolution Strategy algorithm from scratch. It evolves the population using independent variances for mutation and selects the best offspring based on their fitness scores.
 * **`evaluate.py`**: Serves as the bridge between the neural network controller and the environment by running a full episode rollout. It calculates the fitness of a genome based on the final distance to the flower, time taken, and a bonus reward for successfully reaching the target.
