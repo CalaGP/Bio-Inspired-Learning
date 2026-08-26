@@ -73,7 +73,7 @@ def run_multi_seed(n_seeds=N_SEEDS, n_generations=N_GENERATIONS, **es_kwargs):
 
         #Let the ANN run with those weights and get the fitness values from the ANN
         n_hidden = es_kwargs.get("n_hidden", 8)
-        n_flowers = es_kwargs.get("n_flowers", 10) 
+        n_flowers = es_kwargs.get("n_flowers", 1) 
         max_steps = es_kwargs.get("max_steps", 300)
  
         holdout_rate = evaluate_holdout_success_rate(

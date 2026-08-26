@@ -27,7 +27,7 @@ POPULATION_SIZE = 40
 ELITE_FRAC = 0.25
 SIGMA_INIT = 0.5
 N_HIDDEN = 8
-N_FLOWERS = 1
+N_FLOWERS = 10
 MAX_STEPS = 300
 
 
@@ -95,12 +95,12 @@ def main(): #By default we run always on seed 0, multiple seeds are tried on mul
 
 
  
-    np.save("best_genome_baseline.npy", es.best_genome)
-    with open("evolution_history_baseline.json", "w") as f:
+    np.save(f"best_genome_{N_FLOWERS}flowers.npy", es.best_genome)
+    with open(F"evolution_history_{N_FLOWERS}flowers.json", "w") as f:
         json.dump(es.history, f, indent=2)
  
     print(f"\nDone. Best fitness ever: {es.best_fitness:.2f}")
-    print("Saved: best_genome_baseline.npy, evolution_history_baseline.json")
+    print(f"Saved: best_genome_{N_FLOWERS}flowers.npy, evolution_history_{N_FLOWERS}flowers.json.json")
 
  
  

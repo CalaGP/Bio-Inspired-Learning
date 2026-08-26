@@ -27,15 +27,15 @@ from render import (
 
 from play_demo import WORLD_W, WORLD_H, SCALE, SCREEN_W, SCREEN_H, build_flower_sprites
 
-N_HIDDEN = 4   #must match what run_evolution.py is using
-N_FLOWERS = 10
+N_HIDDEN = 8   #must match what run_evolution.py is using
+N_FLOWERS = 100
 MAX_STEPS = 400
 
 COLOR_TEXT = (255, 255, 255)
 TEXT_BG = (20, 20, 20, 160)
 
 def main():
-    genome = np.load("best_genome.npy")
+    genome = np.load("best_genome_100flowers.npy")
     controller = FeedforwardNN(n_inputs=2, n_hidden=N_HIDDEN, n_outputs=2)
     controller.set_flat_weights(genome)
     print(f"Loaded genome with {genome.shape[0]} weights.")
